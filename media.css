@@ -1,0 +1,135 @@
+/* media styles */
+/* for mobile */
+@media screen and (max-width:600px){
+    /* header */
+    header{
+        width: 100%;
+    }
+    .three-line{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .logo h1{
+        padding: 20px 10px;
+    }
+    .three-line{
+        padding: 33px 0;
+    }
+    /* banner */
+    .banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner h1{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .src-bar{
+        margin: 15px auto;
+        width: 290px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .src-bar input,select{
+        width: 250px;
+    }
+    .src-bar button{
+        width: 250px;
+    }
+
+
+    
+    /* main */
+    main{
+        width: 100%;
+    }
+
+
+
+    /* section tour */
+    .tours{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .tours-texts{
+        margin: 30px;
+    }
+    .tours-img img{
+        width: 90%;
+        display: block;
+        margin: 0 auto
+    }
+
+    /* section Destination */
+    .destination{
+        margin-bottom: 50px;
+    }
+    .destination .row{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .destination img{
+        width: 335px;
+        height: 176px;
+        display: block;
+        margin: 0 auto;
+    }
+    .destination .row{
+        margin: 10px 0;
+    }
+    .destination .row div{
+        margin-top: 10px; 
+    }
+    .destination .row div:first-child{
+        margin-top: 0;
+    }
+    .destination  .title{
+        margin: 50px 0 10px 0;
+    }
+    .destination  .pera{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+
+    /* section choose */
+    .choose{
+        margin-bottom: 50px;
+    }
+    .card{
+        width: 335px;
+        height: 289px;
+    }
+    .card-container{
+        margin-top: 30px;
+    }
+    .card-1,.card-2{
+        margin: 0 auto 20px auto;
+    }
+    .card-1-2{
+        flex-direction: column;
+        margin: 0 auto 1px auto;
+    }
+    .card img{
+        margin: 20px 0 0 20px ;
+    }
+
+    /* footer */
+    footer h1{
+        padding-top: 20px;
+    }
+    footer p{
+        padding: 10px;
+    }
+    footer ul{
+        margin: 10px auto;
+    }
+    hr{
+        width: 335px;
+    }
+    .rights{
+        padding: 20px 0;
+    }
+}

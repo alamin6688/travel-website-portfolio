@@ -1,20 +1,13 @@
-/* Common Styles */
+/* common styles */
 *{
     margin: 0 ;
     padding: 0;
     font-family: 'Mulish', sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-size: 1.25rem;
+    font-size: 20px;
 }
-.title{
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
+
 .pera{
     color: #5A5A5D;
     font-size: 16px;
@@ -22,7 +15,17 @@
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-}    
+}
+
+.title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}       
+
 .btn{
     width: 174px;
     height: 52px;
@@ -33,6 +36,7 @@
     font-style: normal;
     font-weight: 800; 
 }
+
 .org-text{
     color: #FF5400;
     font-family: Mulish;
@@ -41,8 +45,7 @@
     font-weight: 800;
     line-height: normal;
 }
-
-/* header section */
+/* header */
 header{
     width: 1170px;
     margin: 0 auto;
@@ -56,6 +59,7 @@ nav .logo h1 img{
     width: 48px;
 
 }
+
 nav .logo h1{
         font-size: 36px;
         font-weight: 800;
@@ -93,8 +97,7 @@ nav .home{
 .three-line{
     display: none;
 }
-
-/* Banner Section */
+/* header banner */
 .banner{
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
@@ -145,13 +148,15 @@ nav .home{
     color:#5A5A5D;
 }
  
-/* Main Section */
+
+/* main */
 main{
     width: 1170px;
     margin: 0 auto;
 }
 
-/* Popular Tour Section */
+
+/* section tours */
 .tours{
     display: flex;
     margin: 100px 0;
@@ -162,25 +167,25 @@ main{
 .tours-texts h1{
     text-align: start;
     margin-bottom: 20px;
+
 }
 .tours-texts p{
     text-align: start;
     padding: 0 20px 0 0;
-    margin: 10px 0;
+    margin: 0px 0;
 }
 .tours-texts ul{
     margin-left: 25px;
-    padding-left: 20px;
 }
 .tours-texts ul li{
     padding: 5px 0;
     color: #5A5A5D;
 }
 .tours-texts>button{
-    margin-top: 40px;
+    margin: 0;
 }
 
-/* Destination Section*/
+/* section Destination */
 .destination{
     margin-bottom: 100px;
 }
@@ -220,6 +225,67 @@ main{
     margin-right: 0;
 }
 
+/* section choose */
+.choose{
+    margin-bottom: 100px;
+}
+.choose>p{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.card-container{
+    margin-top: 60px;
+}
+.card{
+    width: 573px;
+    height: 284px;            
+}
+.card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 10px;
+}
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-left: 10px;
+}
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+}
+.card-1-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 64px;
+    margin: 30px 0 0 20px ;
+    padding: 5px;
+}
+
+.card h1{
+    text-align: left;
+    padding: 20px 0 0 30px;
+    font-size: 25px;
+}
+.card p{
+    text-align: left;
+    padding: 0px ;
+    width: 90%;
+}
+.card-1 p{
+    padding: 20px 0 0 30px;
+}
+.card-3 p{
+    padding: 20px 0 0 30px;
+}
 
 
 
@@ -229,9 +295,7 @@ main{
 
 
 
-
-
-/* footer section */
+/* footer */
 footer{
     background-color: #F3F3F3;
 }
@@ -272,120 +336,4 @@ hr{
 
 .rights{
     padding: 50px 0 110px 0;
-}
-
-
-
-
-
-
-/* Responsive for Mobile Devices */
-
-@media screen and (max-width:600px){
-    /* Header Section */
-    header{
-        width: 100%;
-    }
-    .three-line{
-        display: block;
-    }
-    nav ul{
-        display: none;
-    }
-    nav .logo h1{
-        padding: 20px 10px;
-    }
-    .three-line{
-        padding: 33px 0;
-    }
-    /* Banner Section */
-    .banner{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .banner h1{
-        padding: 10px;
-        font-size: 40px;
-    }
-    .src-bar{
-        margin: 15px auto;
-        width: 290px;
-        align-items: center;
-        flex-direction: column;
-    }
-    .src-bar input,select{
-        width: 250px;
-    }
-    .src-bar button{
-        width: 250px;
-    }
-
-
-    
-    /* Main Section*/
-    main{
-        width: 100%;
-    }
-
-
-
-    /* Popular Tour Section */
-    .tours{
-        flex-direction: column;
-        margin: 40px 0;
-    }
-    .tours-texts{
-        margin: 30px;
-    }
-    .tours-img img{
-        width: 90%;
-        display: block;
-        margin: 0 auto
-    }
-
-    /* Destination Section */
-    .destination .row{
-        flex-direction: column;
-        margin: 20px;
-    }
-    .destination img{
-        width: 335px;
-        height: 176px;
-        display: block;
-        margin: 0 auto;
-    }
-    .destination .row{
-        margin: 10px 0;
-    }
-    .destination .row div{
-        margin-top: 10px; 
-    }
-    .destination .row div:first-child{
-        margin-top: 0;
-    }
-    .destination  .title{
-        margin: 50px 0 10px 0;
-    }
-    .destination  .pera{
-        width: 100%;
-        margin-bottom: 0px;
-    }
-
-
-    /* footer */
-    footer h1{
-        padding-top: 20px;
-    }
-    footer p{
-        padding: 10px;
-    }
-    footer ul{
-        margin: 10px auto;
-    }
-    hr{
-        width: 335px;
-    }
-    .rights{
-        padding: 20px 0;
-    }
 }
