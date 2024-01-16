@@ -1,0 +1,390 @@
+/* Common Styles */
+*{
+    margin: 0 ;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+}
+.title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.pera{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}    
+.btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800; 
+}
+.org-text{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* header section */
+header{
+    width: 1170px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo h1 img{
+    width: 48px;
+
+}
+nav .logo h1{
+        font-size: 36px;
+        font-weight: 800;
+        font-size: 32px;
+        padding: 50px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.nav-h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+nav ul,.three-line{
+    list-style: none;
+    padding: 60px 0px;
+}
+.three-line{
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    padding: 0 10px;
+}
+nav ul li:last-child{
+    padding-right: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424247;
+}
+nav .home{
+    color: #FF5400;
+}
+.three-line{
+    display: none;
+}
+
+/* Banner Section */
+.banner{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+.banner h1{
+    padding: 100px 0 25px 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+.banner-desc{
+    color: #FFF;
+    width: 70%;
+    margin: 0 auto;
+}
+.src-bar{
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 850px;
+    margin: 40px auto 0
+    auto;
+}
+.src-bar input,select,button{
+    width: 175px;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    height: 52px;
+}
+.src-bar>button{
+    padding: 0px;
+    font-weight: 400;
+}
+.src-bar select{
+    color:#5A5A5D;
+}
+ 
+/* Main Section */
+main{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Popular Tour Section */
+.tours{
+    display: flex;
+    margin: 100px 0;
+}
+.tours-texts{
+    margin-top: 40px;
+}
+.tours-texts h1{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.tours-texts p{
+    text-align: start;
+    padding: 0 20px 0 0;
+    margin: 0px 0;
+}
+.tours-texts ul{
+    margin-left: 25px;
+}
+.tours-texts ul li{
+    padding: 5px 0;
+    color: #5A5A5D;
+}
+.tours-texts>button{
+    margin: 0;
+}
+
+/* Destination Section*/
+.destination{
+    margin-bottom: 100px;
+}
+.destination .row{
+    width: 100%;
+    display: flex;
+    margin:  20px 0;
+}
+.destination .row div{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.destination .row div h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destination img{
+    margin: 0 12.5px;
+
+}
+.destination  .title{
+    margin: 40px 0 20px 0;
+}
+.destination  .pera{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.maldives,.srilanka,.bangladesh{
+    margin-left: 0;
+}
+.indonesia,.kashmir,.bandarban{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    background-color: #F3F3F3;
+}
+footer img{
+    width: 40px;
+}
+footer h1{
+    font-size: 32px;
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 32px;
+}
+.footer-h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+footer p{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+footer ul{
+    list-style: none;
+    display: block;
+    margin: 33px auto ;
+    width: 200px;
+}
+footer ul li{
+    display: inline;
+    padding: 0 10px;
+}
+hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+}
+
+.rights{
+    padding: 50px 0 110px 0;
+}
+
+
+
+
+
+
+/* Responsive for Mobile Devices */
+
+@media screen and (max-width:600px){
+    /* Header Section */
+    header{
+        width: 100%;
+    }
+    .three-line{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .logo h1{
+        padding: 20px 10px;
+    }
+    .three-line{
+        padding: 33px 0;
+    }
+    /* Banner Section */
+    .banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner h1{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .src-bar{
+        margin: 15px auto;
+        width: 290px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .src-bar input,select{
+        width: 250px;
+    }
+    .src-bar button{
+        width: 250px;
+    }
+
+
+    
+    /* Main Section*/
+    main{
+        width: 100%;
+    }
+
+
+
+    /* Popular Tour Section */
+    .tours{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .tours-texts{
+        margin: 30px;
+    }
+    .tours-img img{
+        width: 90%;
+        display: block;
+        margin: 0 auto
+    }
+
+    /* Destination Section */
+    .destination .row{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .destination img{
+        width: 335px;
+        height: 176px;
+        display: block;
+        margin: 0 auto;
+    }
+    .destination .row{
+        margin: 10px 0;
+    }
+    .destination .row div{
+        margin-top: 10px; 
+    }
+    .destination .row div:first-child{
+        margin-top: 0;
+    }
+    .destination  .title{
+        margin: 50px 0 10px 0;
+    }
+    .destination  .pera{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+
+    /* footer */
+    footer h1{
+        padding-top: 20px;
+    }
+    footer p{
+        padding: 10px;
+    }
+    footer ul{
+        margin: 10px auto;
+    }
+    hr{
+        width: 335px;
+    }
+    .rights{
+        padding: 20px 0;
+    }
+}
